@@ -1,1 +1,0 @@
-# MemeCut---Trabalho-do-Caio
