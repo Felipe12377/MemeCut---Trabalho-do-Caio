@@ -18,11 +18,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    z-index: 100;
 }
 
 .logo {
-    width: 200px;
+    width: 100px;
 }
 
 .navbar a {
@@ -77,7 +77,7 @@ hr {
 
 footer {
     background-color: black;
-    padding:50px 0;
+    padding: 50px 0;
 }
 
 .rodape {
@@ -97,24 +97,4 @@ h3 {
     font-size: 30PX;
     text-align: center;
     color:   #D3D78C; 
-}
-
-hr {
-    border-color: #D3D78C;
-    margin-top: 100px;
-    margin-bottom: 50px;
-}
-
-div {
-    text-align: center;
-}
-
-div >.cabelo {
-    width: 250px;
-    margin-top: 50px;
-}
-
-div >.cabelos {
-    width: 350px;
-    margin-top: 50px;
 }
