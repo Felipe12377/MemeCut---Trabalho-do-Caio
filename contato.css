@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://img.freepik.com/fotos-gratis/fundo-de-textura-grunge-escuro-com-arranhoes-e-manchas_1048-18915.jpg?semt=ais_hybrid&w=740);
+}
+
+header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    width: 100px;
+}
+
+.navbar a {
+    font-size: 25px;
+    font-family: "Boldonse", system-ui;
+    color: #D3D78C;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.navbar a:hover {
+    color: #ffff;
+    transition: 1s;
+}
+
+h1 {
+    margin-bottom: 30px;
+    margin-top: 70px;
+    font-size: 60PX;
+    text-align: center;
+    color:   #D3D78C;
+}
+p {
+    font-size: 25px;
+    text-align: center;
+    color:   #D3D78C;
+}
+
+h2 {
+    margin-bottom: 30px;
+    margin-top: 90px;
+    font-size: 30PX;
+    text-align: center;
+    color:   #D3D78C; 
+}
+
+hr {
+    border-color: #D3D78C;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.container {
+    background-color: black;
+}
